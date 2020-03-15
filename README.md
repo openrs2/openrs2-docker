@@ -13,7 +13,7 @@ Pushes must be made via a different hostname to work around the registry's
 
 ```
 docker login registry-admin.openrs2.dev
-docker tag registry{-admin,}.openrs2.dev/openrs2-dev
+docker tag registry{,-admin}.openrs2.dev/openrs2-dev
 docker push registry-admin.openrs2.dev/openrs2-dev
 ```
 
