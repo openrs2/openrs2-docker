@@ -9,5 +9,7 @@ RUN mkdir -p /usr/share/man/man1 && \
     libgl1-mesa-dev \
     libxt-dev \
     maven \
-    openjdk-11-jdk && \
+    openjdk-11-jdk \
+    openssh-client \
+    rsync && \
   rm -rf /var/lib/apt/lists/*
