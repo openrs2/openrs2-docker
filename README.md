@@ -3,7 +3,7 @@
 ## Building
 
 ```
-docker build -t registry.openrs2.dev/openrs2-dev .
+docker build -t registry.openrs2.org/openrs2-dev .
 ```
 
 ## Deploying
@@ -12,9 +12,9 @@ Pushes must be made via a different hostname to work around the registry's
 [compatibility with nginx authentication][registry-auth-bug].
 
 ```
-docker login registry-admin.openrs2.dev
-docker tag registry{,-admin}.openrs2.dev/openrs2-dev
-docker push registry-admin.openrs2.dev/openrs2-dev
+docker login registry-admin.openrs2.org
+docker tag registry{,-admin}.openrs2.org/openrs2-dev
+docker push registry-admin.openrs2.org/openrs2-dev
 ```
 
 ## License
