@@ -5,6 +5,7 @@ RUN mkdir -p /usr/share/man/man1 && \
   apt-get install -y --no-install-recommends \
     gcc \
     git \
+    libbz2-1.0 \
     libc6-dev \
     libglvnd-dev \
     libxt-dev \
